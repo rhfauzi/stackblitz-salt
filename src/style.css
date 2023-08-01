@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+}
+
+.dashboard {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial !important;
+}
+
+.left-box {
+  background: #7879f1;
+  min-height: 969px;
+}
+
+.brief-text {
+  min-height: 300px;
+  background-color: #ffffff66;
+  font-family: Arial !important;
+  margin: 100px;
+  padding: 100px;
+  overflow-wrap: break-word;
+}
+
+.lorem-text {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0px;
+  line-height: 57.6px;
+}
+
+.lorem-text-small {
+  font-size: 18px;
+}
+
+.fcwhite {
+  color: white;
+}
+
+.fcblack {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.right-box {
+  background-color: white;
+}
+
+.login-container {
+  min-height: 300px;
+  font-family: Arial !important;
+  margin: 50px 100px 100px 100px;
+  padding: 30px;
+  overflow-wrap: break-word;
+}
+
+.title-box {
+  margin-bottom: 30px;
+}
+.title-box h1 {
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0px;
+}
+.title-box h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.form-box input {
+  height: 40px;
+}
+
+.login-form-forgot {
+  text-decoration: underline;
+  float: right;
+  color: #3e334e;
+}
+
+.footer-button {
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login {
+  background: #7879f1;
+  color: #ffffff;
+  width: calc(50% - 10px);
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.signup {
+  background: white;
+  color: #3e334e;
+  width: calc(50% - 10px);
+  margin-left: 10px;
+}
+
+.sosmed-login {
+  margin-top: 15px;
+  color: #3e334e;
+  text-align: center;
+}
+.sosmed-login button {
+  background: white;
+  color: #3e334e;
+  width: 100%;
+}
+
+.ant-form-item
+  .ant-form-item-label
+  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .left-box {
+    display: none;
+  }
+}
